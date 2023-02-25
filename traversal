@@ -1,6 +1,6 @@
 // binary tree
 
-// level order traversal
+// level order traversal    
 class Solution {
 public:
     vector<vector<int>> levelOrder(TreeNode* root) {
@@ -26,7 +26,7 @@ public:
          return ans;
     }
 };
-// preorder traversal
+// preorder traversal   rLR
 class Solution {
 public:
     vector<int> preorderTraversal(TreeNode* root) {
@@ -46,7 +46,7 @@ public:
     }
 };
 
-// in order traversal
+// in order traversal     LrR
  class Solution {
 public:
     vector<int> inorderTraversal(TreeNode* root) {
@@ -74,7 +74,7 @@ public:
     }
 };
 
-// post order traversal
+// post order traversal   LRr
 
 class Solution {
 public:
@@ -100,6 +100,7 @@ public:
           return ans;
     }
 };
+
 
 
 
